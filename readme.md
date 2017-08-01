@@ -12,12 +12,9 @@
 
 ## Opening Framing
 
-What does it mean to be a developer? Do we, as developers, just sit in our mom's basement, drinking mountain dew absent minded from the outside world and just code all day? Maybe. Hopefully not. Development is not just about coding. Planning, preparing, discussion and iteration is in our lifeblood. It's integral to how effective development happens.
-Let's look at facebook ten years ago compared to today:
-### Ten years ago
-![facebook from 10 years ago](http://editorial.designtaxi.com/news-facebook050214/2.jpg).
-### Today
-![now](https://cloud.githubusercontent.com/assets/7882341/25438675/3d749d80-2a68-11e7-9821-94d0bf1d9553.png)
+What is agile development? What does it mean to "be agile"? Why would we want to do this? Where do we see agile development in the real world?
+
+### The Evolution of Facebook
 
 And there were [dozens of iterations in between](http://www.pcmag.com/feature/320360/10-years-later-facebook-s-design-evolution).
 Think about this in comparison to software that is released in annual versions.
@@ -29,11 +26,11 @@ One form of SDLC is the waterfall methodology.
 
 ![](http://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
 
-It's a linear approach to software development. Project stages execute sequentially. You get to the final product fully developed and tested at the very end of the process. Sometimes can be good if you know EXACTLY what you want the end goal to be. IE. you know: what to build, who to build it for, and how to build it.
+It's a linear approach to software development. Project stages execute sequentially. You get to the final product fully developed and tested at the very end of the process. This was the status quo for a long time and still works well if you know EXACTLY what you want the end goal to be. IE. you know: what to build, who to build it for, and how to build it.
 
-But things change.. dependent software changes, customer needs change.
+But things change. dependent software changes, customer needs change.
 
-We'll be talking about/using a better model/methodology of SDLC in particular. Agile Software Developement
+In 2001, a meeting of developers infulential in addressing the shortcomings of this traditional Software Development Life Cycle resulted in the Agile Manifesto.
 
 ## Agile Software Development
 *Official* wikipedia definition. Agile Software Development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams.
@@ -55,17 +52,34 @@ We'll be talking about/using a better model/methodology of SDLC in particular. A
 
 > about the items in bold, while there is value in the items on the right, we value the items on the left more.
 
-> TLDR of above, TRY SOMETHING react to feedback
+> TL;DR: TRY SOMETHING react to feedback
 
-The Basic Implementation of Agile workflow is rapid development based on quick iterations known as sprints. Traditionally in the development environments sprints can last anywhere from 1-4 weeks. Development teams can build trust in their clientele/customer base by delivering early and often.
+## Scrum Methodology
 
-This also provides the additional benefit of allowing for steering. Changing the direction of the project on a per iteration basis if need be.
+Scrum is currently one of the most popular implementations of the Agile Manifesto. Much of Scrum's popularity is due to its simplicity.
 
+There are three roles in Scrum:
+1. **Product Owner**: The person with a vision of the final product who can communicate the big picture needs and wants of the product.
+2. **Scrum Master**: The person tasked with faciliating the work organizing and prioritizing work, facilitating work and addressing any issues blocker the team, and communicating between the product owner and the team.
+3. **Team Members**: The development team who build the product (3-9 people; includes programmers, engineers, designers, architects, etc)
+
+The Scrum Methodology is focused on quick iterations known as sprints which tackle work from a Backlog maintained by the Product Owner and the Scrum Master. The items in the Backlog are anything that take the teams time and can gererally be categorized as adding a featuer or fixing something (whether that be bug squashing or refactoring). Sprints are generally a week or two long. Before a Sprint there is a timeboxed Sprint Planning meeting where the top items in the backlog are assigned as sprint tasks. The Team Members and Scrum Master then go about the work of breaking down tasks and assigning responsibilities for the sprint.
+
+Each day of the sprint, the team and scrum master meets for a short meeting (frequently held standing to encourage brevity) to discuss progress made, plans, and potential obsticles.
+
+At the end of the sprint, the team and scrum master meets and should have some feature(s) be ready for deployment (meaning written, tested, and approved) and to be shown to the product owner. The team, scrum master, and product owner meet to discuss the product of the last sprint and finally there is a meeting to plan the next sprint and the cycle continues. Hacing these short work cycles allows tight feedback loops, constant delivery of ever improving product, the ability to respond quickly to chaning product demands, and very importantly, the ability to work focusing on a specific goal without the n. Changing the direction of the project on a per iteration basis if need be.
 
 ### What does that mean for you?
-For your projects you can structure your own sprints in even smaller increments. Maybe even 1 or 2 days. Perhaps shorter! Get something done in the sprint and iterate on it
 
-### Think, Pair, Share: Waterfall vs Agile (10 minutes)
+For our second project, we are missing a couple of key aspects to fully implement scrum -- those elements being time and other people. That being said, we can still take cues from the work flow:
+
+- Try filling all of the roles yourself but being careful to be in just one mindset at at time. Take the role of the manager to build the backlog, then take the role of scrum master in prioritizing, and finally work on implementation as a team member.
+- Structure your own sprints in even smaller increments. Maybe even 1 or 2 days. Perhaps shorter! Get something done in the sprint and iterate on it
+
+When planning these sprints, set concrete goals for yourself. I'm going to achieve X by 12:30 so that I can get started on Y after lunch. I will finish Y by close of business so that I can start on Z. You could scale even further than that.
+
+
+### Think, Pair, Share: Waterfall vs Agile/Scrum (10 minutes)
 
 Take a moment to read through each of the following questions, then discuss with a partner:
 
@@ -74,11 +88,6 @@ Take a moment to read through each of the following questions, then discuss with
 3. Can you think of any companies that adhere to waterfall principles?
 4. Which companies come to mind when thinking of the agile methodology?
 5. Can you list ways conventional companies are adjusting to the agile movement?
-
-### Scheduling
-When planning these sprints, set concrete goals for yourself. I'm going to achieve X by 12:30 so that I can get started on Y after lunch. I will finish Y by close of business so that I can start on Z. You could scale even further than that.
-
-Traditionally during the project weeks you'll have time to work from home. It is VITAL that you guys schedule yourselves well.
 
 ## MVP Minimum Viable Product
 
@@ -114,16 +123,11 @@ general user story that does not provide insights as to how the goal should be m
 This app should have a really good social networking engine.
 ```
 
-### In - Class Ex( 20 m )
-Individually, assign numbers 1-5 for all students. For whichever number a student receives individually write as many user stories as they can for the next 5 minutes. In the next 10 minutes, students will group in their respective applications, and whiteboard at least 10 user stories. 5 minutes to review user stories.
+### MVP Instagram - Class Ex( 20 m )
 
 What is the most essential feature for this product? What's the MVP?
 
-1. Facebook
-2. Ebay
-3. Tinder
-4. Gmail
-5. Github
+What are bronze, silver, and gold featurs?
 
 ### Trello
 User stories are great, but wouldn't it be nice if there was a great place to store and track all of them? There is! It's called trello. There are other out there, but we recommend this one.
