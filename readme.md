@@ -22,7 +22,7 @@ The SDLC is the software development life cycle, also referred to as the applica
 
 One form of SDLC is the waterfall methodology.
 
-![waterfall](http://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
+![waterfall](https://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
 
 It's a linear approach to software development. Project stages execute sequentially. You get to the final product fully developed and tested at the very end of the process. This was the status quo for a long time and still works well if you know EXACTLY what you want the end goal to be. IE. you know: what to build, who to build it for, and how to build it.
 
