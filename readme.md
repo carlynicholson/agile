@@ -14,17 +14,15 @@
 
 What is agile development? What does it mean to "be agile"? Why would we want to do this? Where do we see agile development in the real world?
 
-### The Evolution of Facebook
-
-And there were [dozens of iterations in between](http://www.pcmag.com/feature/320360/10-years-later-facebook-s-design-evolution).
-Think about this in comparison to software that is released in annual versions.
+First we should consider the status quo of software delivery before Agile development became massively popular.
 
 ## SDLC
-THE SDLC is the software development life cycle, also referred to as the application development life-cycle. It is a term used to describe a process for planning, creating, testing, and deploying an information system.
+
+The SDLC is the software development life cycle, also referred to as the application development life-cycle. It is a term used to describe a process for planning, creating, testing, and deploying an information system.
 
 One form of SDLC is the waterfall methodology.
 
-![](http://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
+![waterfall](http://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
 
 It's a linear approach to software development. Project stages execute sequentially. You get to the final product fully developed and tested at the very end of the process. This was the status quo for a long time and still works well if you know EXACTLY what you want the end goal to be. IE. you know: what to build, who to build it for, and how to build it.
 
@@ -32,11 +30,21 @@ But things change. dependent software changes, customer needs change.
 
 In 2001, a meeting of developers infulential in addressing the shortcomings of this traditional Software Development Life Cycle resulted in the Agile Manifesto.
 
-## Agile Software Development
-*Official* wikipedia definition. Agile Software Development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams.
+## Iterative Delivery
 
-### Agile Manifesto
-> Great Quote: "The Agile movement is not anti-methodology, in fact many of us want to restore credibility to the word methodology. We want to restore a balance. We embrace modeling, but not in order to file some diagram in a dusty corporate repository. We embrace documentation, but not hundreds of pages of never-maintained and rarely-used tomes. We plan, but recognize the limits of planning in a turbulent environment. Those who would brand proponents of XP or SCRUM or any of the other Agile Methodologies as "hackers" are ignorant of both the methodologies and the original definition of the term hacker." —Jim Highsmith, History: The Agile Manifesto
+The corner stone of Agile development is iterative delivery -- relasing new versions and updates regularly.
+
+Consider the [evolution of Facebook over the years](http://www.pcmag.com/feature/320360/10-years-later-facebook-s-design-evolution).
+Think about this in comparison to software that is released in annual versions.
+
+
+## Agile Software Development
+
+Agile Software Development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. - Wikipedia
+
+### [Agile Manifesto](http://agilemanifesto.org/)
+
+> "The Agile movement is not anti-methodology, in fact many of us want to restore credibility to the word methodology. We want to restore a balance. We embrace modeling, but not in order to file some diagram in a dusty corporate repository. We embrace documentation, but not hundreds of pages of never-maintained and rarely-used tomes. We plan, but recognize the limits of planning in a turbulent environment. Those who would brand proponents of XP or SCRUM or any of the other Agile Methodologies as "hackers" are ignorant of both the methodologies and the original definition of the term hacker." —Jim Highsmith, History: The Agile Manifesto
 
 **Individuals and interactions over processes and tools:**
 - self-organization and motivation are important, as are interactions like co-location and pair programming.
@@ -54,7 +62,7 @@ In 2001, a meeting of developers infulential in addressing the shortcomings of t
 
 > TL;DR: TRY SOMETHING react to feedback
 
-## Scrum Methodology
+## [Scrum Methodology](http://scrummethodology.com/)
 
 Scrum is currently one of the most popular implementations of the Agile Manifesto. Much of Scrum's popularity is due to its simplicity.
 
@@ -69,7 +77,7 @@ Each day of the sprint, the team and scrum master meets for a short meeting (fre
 
 At the end of the sprint, the team and scrum master meets and should have some feature(s) be ready for deployment (meaning written, tested, and approved) and to be shown to the product owner. The team, scrum master, and product owner meet to discuss the product of the last sprint and finally there is a meeting to plan the next sprint and the cycle continues. Hacing these short work cycles allows tight feedback loops, constant delivery of ever improving product, the ability to respond quickly to chaning product demands, and very importantly, the ability to work focusing on a specific goal without the n. Changing the direction of the project on a per iteration basis if need be.
 
-### What does that mean for you?
+### What does this mean for you?
 
 For our second project, we are missing a couple of key aspects to fully implement scrum -- those elements being time and other people. That being said, we can still take cues from the work flow:
 
@@ -92,6 +100,7 @@ Take a moment to read through each of the following questions, then discuss with
 ## MVP Minimum Viable Product
 
 ### T&T(4m)
+
 - With what we've talked about, discuss with your neighbor what you think we mean by minimum viable product.
 
 Honestly there's a lot of different meanings for minimum viable product. [This video does a great job describing an approach](https://www.youtube.com/watch?v=1FoCbbbcYT8)
@@ -123,13 +132,14 @@ general user story that does not provide insights as to how the goal should be m
 This app should have a really good social networking engine.
 ```
 
-### MVP Instagram - Class Ex( 20 m )
+### MVP Practice: Instagram
 
 What is the most essential feature for this product? What's the MVP?
 
 What are bronze, silver, and gold featurs?
 
 ### Trello
+
 User stories are great, but wouldn't it be nice if there was a great place to store and track all of them? There is! It's called trello. There are other out there, but we recommend this one.
 
 Sign up for [trello](https://trello.com/) if you don't already have an account and spend a few minutes exploring the site before:
@@ -147,11 +157,11 @@ A backlog is a list of features or technical tasks which the team maintains and 
 Its a set of work that is targeted to achieve successful delivery of a project or a release of a product. Often times, it boils down to a bunch of user stories.
 
 ### The Icebox
+
 The icebox is literally where all your ideas go that you don’t currently plan to build. It doesn’t mean you can’t thaw them out later, but to you it represents what you should be investigating further. The backlog, however, is things you definitely plan to build
 
-TLDR would be nice to get too, but its not happening any time soon.
-
 ## Wireframes, what will our MVP look like?
+
 A wireframe is a simple blueprint/template/sketch/visual outline of the components of your website. Though there are some great digital wireframing tools out there, all you really need to make a wireframe for your personal use is a piece of paper and something to write with.  
 - READ ME: [Wireframe Basics](https://www.gliffy.com/uses/wireframe-software/)
 - Curious to learn more about wireframes? Ask a UXDI student!
