@@ -1,42 +1,40 @@
 # User Stories/MVP/Agile Software Development
 
 ## Learning Objectives
-- Define Software Development Life Cycle and why we use it as developers.
-- Provide a general overview of what "Agile" means and contrast it to Waterfall.
+- Define Software Development Life Cycle
+- Provide a general overview of both Waterfall and Agile
 - Identify the components of a good user story.
-- Explain what Trello is, and why we use it.
+- Explain what a Kanban Board is, and why we use it.
 - Define what a backlog is and how they are implemented in developer workflow.
 - Create user stories for existing web applications.
 - Differentiate MVP from application.
 - Generate user stories in order to create proof of concept for MVP(minimum viable product)
 
-## Opening Framing
+## Framing
 
-What is agile development? What does it mean to "be agile"? Why would we want to do this? Where do we see agile development in the real world?
+What is the best way to approach building our projects? When we're working on a new software project, what can we do to set ourselves up for success?
 
-First we should consider the status quo of software delivery before Agile development became massively popular.
+These are questions that developers have been asking themselves for a long time. There are many different answers, which we'll discuss here:
 
-## SDLC
+## Software Development Life Cycle
 
-The SDLC is the software development life cycle, also referred to as the application development life-cycle. It is a term used to describe a process for planning, creating, testing, and deploying an information system.
-
-One form of SDLC is the waterfall methodology.
+The software development life cycle (SDLC), also referred to as the application development life-cycle, is a term used to describe the process for planning, creating, testing, and deploying an information system. This process can take many forms, one of which is the waterfall methodology:
 
 ![waterfall](https://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
 
-It's a linear approach to software development. Project stages execute sequentially. You get to the final product fully developed and tested at the very end of the process. This was the status quo for a long time and still works well if you know EXACTLY what you want the end goal to be. IE. you know: what to build, who to build it for, and how to build it.
+Waterfall is a linear approach to software development. Project stages are executed sequentially and you get to the final product - fully developed and tested - at the very end of the process. This was the status quo for a long time and still works well in some cases. You need to know EXACTLY what you want the end goal to be. i.e. you know: what to build and who to build it for and those two things don't change.
 
-But things change. dependent software changes, customer needs change.
+Except that things always change: requirements change, customer needs change, the market changes.
 
-In 2001, a meeting of developers infulential in addressing the shortcomings of this traditional Software Development Life Cycle resulted in the Agile Manifesto.
+In 2001, a meeting of influential developers addressed the shortcomings of the traditional Software Development Life Cycle, resulting in the Agile Manifesto.
 
 ## Iterative Delivery
 
-The corner stone of Agile development is iterative delivery -- relasing new versions and updates regularly.
+The cornerstone of Agile development is iterative delivery -- releasing new versions and updates regularly.
 
 Consider the [evolution of Facebook over the years](http://www.pcmag.com/feature/320360/10-years-later-facebook-s-design-evolution).
-Think about this in comparison to software that is released in annual versions.
 
+Think about this in comparison to software that is released in annual versions.
 
 ## Agile Software Development
 
@@ -68,14 +66,14 @@ Scrum is currently one of the most popular implementations of the Agile Manifest
 
 There are three roles in Scrum:
 1. **Product Owner**: The person with a vision of the final product who can communicate the big picture needs and wants of the product.
-2. **Scrum Master**: The person tasked with faciliating the work organizing and prioritizing work, facilitating work and addressing any issues blocker the team, and communicating between the product owner and the team.
+2. **Scrum Master**: The person tasked with fasciliating the work organizing and prioritizing work, facilitating work and addressing any issues blocker the team, and communicating between the product owner and the team.
 3. **Team Members**: The development team who build the product (3-9 people; includes programmers, engineers, designers, architects, etc)
 
-The Scrum Methodology is focused on quick iterations known as sprints which tackle work from a Backlog maintained by the Product Owner and the Scrum Master. The items in the Backlog are anything that take the teams time and can gererally be categorized as adding a featuer or fixing something (whether that be bug squashing or refactoring). Sprints are generally a week or two long. Before a Sprint there is a timeboxed Sprint Planning meeting where the top items in the backlog are assigned as sprint tasks. The Team Members and Scrum Master then go about the work of breaking down tasks and assigning responsibilities for the sprint.
+The Scrum Methodology is focused on quick iterations known as sprints which tackle work from a Backlog maintained by the Product Owner and the Scrum Master. The items in the Backlog are anything that take the teams time and can generally be categorized as adding a feature or fixing something (whether that be bug squashing or refactoring). Sprints are generally a week or two long. Before a Sprint there is a time-boxed Sprint Planning meeting where the top items in the backlog are assigned as sprint tasks. The Team Members and Scrum Master then go about the work of breaking down tasks and assigning responsibilities for the sprint.
 
-Each day of the sprint, the team and scrum master meets for a short meeting (frequently held standing to encourage brevity) to discuss progress made, plans, and potential obsticles.
+Each day of the sprint, the team and scrum master meets for a short meeting (frequently held standing to encourage brevity) to discuss progress made, plans, and potential obstacles.
 
-At the end of the sprint, the team and scrum master meets and should have some feature(s) be ready for deployment (meaning written, tested, and approved) and to be shown to the product owner. The team, scrum master, and product owner meet to discuss the product of the last sprint and finally there is a meeting to plan the next sprint and the cycle continues. Hacing these short work cycles allows tight feedback loops, constant delivery of ever improving product, the ability to respond quickly to chaning product demands, and very importantly, the ability to work focusing on a specific goal without the n. Changing the direction of the project on a per iteration basis if need be.
+At the end of the sprint, the team and scrum master meets and should have some feature(s) be ready for deployment (meaning written, tested, and approved) and to be shown to the product owner. The team, scrum master, and product owner meet to discuss the product of the last sprint and finally there is a meeting to plan the next sprint and the cycle continues. Having these short work cycles allows tight feedback loops, constant delivery of ever improving product, the ability to respond quickly to changing product demands, and very importantly, the ability to work focusing on a specific goal. Changing the direction of the project on a per iteration basis if need be.
 
 ### What does this mean for you?
 
@@ -105,9 +103,9 @@ Take a moment to read through each of the following questions, then discuss with
 
 Honestly there's a lot of different meanings for minimum viable product. [This video does a great job describing an approach](https://www.youtube.com/watch?v=1FoCbbbcYT8)
 
-So what does MVP mean in this class? It's not so different. Build something that works(sorta), that you can get feedback from, and subsequently iterate on.
+So what does MVP mean in this class? It's not so different. Build something that works (sorta), that you can get feedback from, and subsequently iterate on.
 
-For the scope of this course. Think of a bronze, silver and gold model. Silver is really what you're trying to make. But if you fall short on time you have your bronze you can fall back on. If you don't have enough to do, you could go to your gold model. Your MVP should be on that bronze/silver line..... ish
+For the scope of this course. Think of a bronze, silver and gold model. Silver is really what you're trying to make. But if you fall short on time you have your bronze you can fall back on. If you don't have enough to do, you could go to your gold model. Your MVP should be on that bronze/silver line... ish
 
 ## User Stories, how do we figure out our MVP?
 
@@ -136,16 +134,24 @@ This app should have a really good social networking engine.
 
 What is the most essential feature for this product? What's the MVP?
 
-What are bronze, silver, and gold featurs?
+What are bronze, silver, and gold features?
 
-### Trello
+### User Stories Practice: Instagram
 
-User stories are great, but wouldn't it be nice if there was a great place to store and track all of them? There is! It's called trello. There are other out there, but we recommend this one.
+Now that we have our MVP outlined for Instagram, lets write some User Stories:
 
-Sign up for [trello](https://trello.com/) if you don't already have an account and spend a few minutes exploring the site before:
+Remember: every user story needs a `<role>`, `<goal>` and `<reason>`. 
 
-- Create an empty Trello Board for Project 2.
-- Create a card to... create user stories for Project 2
+Write a user story for all your MVP features from above.
+
+### GitHub Projects
+
+User stories are great, but wouldn't it be nice if there was a great place to store and track all of them? There is! The "Projects" tab of every GitHub repository. There are other tools just like it out there (like Trello), but we recommend this one.
+
+Create a repository for your Project 2 if you haven't already. Once you do:
+
+- Create an new Project inside your new repository for Project 2.
+- Create a card with a possible user story for your Project 2.
 
 ### Backlog
 
@@ -158,7 +164,7 @@ Its a set of work that is targeted to achieve successful delivery of a project o
 
 ### The Icebox
 
-The icebox is literally where all your ideas go that you don’t currently plan to build. It doesn’t mean you can’t thaw them out later, but to you it represents what you should be investigating further. The backlog, however, is things you definitely plan to build
+The icebox is literally where all your ideas go that you don’t currently plan to build. It doesn’t mean you can’t thaw them out later, but it represents what you should be investigating further. The backlog, however, is things you definitely plan to build
 
 ## Wireframes, what will our MVP look like?
 
